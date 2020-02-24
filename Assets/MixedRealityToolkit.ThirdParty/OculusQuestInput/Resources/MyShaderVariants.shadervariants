@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MyShaderVariants
+  m_Shaders:
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 1c504b73bf66872479cd1215fb5ce0fe, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 5bdea20278144b11916d77503ba1467a, type: 3}
+    second:
+      variants:
+      - keywords: _ALPHATEST_ON
+        passType: 4
+      - keywords: _ALPHATEST_ON _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: INSTANCING_ON _ALPHABLEND_ON _BORDER_LIGHT _DISABLE_ALBEDO_MAP _NEAR_LIGHT_FADE
+          _NEAR_PLANE_FADE
+        passType: 4
+      - keywords: _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP
+          _HOVER_LIGHT _PROXIMITY_LIGHT _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: INSTANCING_ON _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT
+          _DISABLE_ALBEDO_MAP _HOVER_LIGHT _PROXIMITY_LIGHT _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _DIRECTIONAL_LIGHT _HOVER_LIGHT _REFLECTIONS _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT _EMISSION _HOVER_LIGHT
+          _REFLECTIONS _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _DIRECTIONAL_LIGHT _HOVER_LIGHT _NORMAL_MAP _REFLECTIONS _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: INSTANCING_ON _ALPHABLEND_ON _BORDER_LIGHT _BORDER_LIGHT_USES_HOVER_COLOR
+          _DISABLE_ALBEDO_MAP _HOVER_LIGHT _METALLIC_TEXTURE_ALBEDO_CHANNEL_A _NEAR_LIGHT_FADE
+          _NEAR_PLANE_FADE _PROXIMITY_LIGHT _PROXIMITY_LIGHT_TWO_SIDED
+        passType: 4
+      - keywords: _HOVER_LIGHT _PROXIMITY_LIGHT _PROXIMITY_LIGHT_COLOR_OVERRIDE _PROXIMITY_LIGHT_SUBTRACTIVE
+          _PROXIMITY_LIGHT_TWO_SIDED _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: INSTANCING_ON _BORDER_LIGHT _BORDER_LIGHT_REPLACES_ALBEDO _DISABLE_ALBEDO_MAP
+          _IRIDESCENCE _METALLIC_TEXTURE_ALBEDO_CHANNEL_A _ROUND_CORNERS
+        passType: 4
+  - first: {fileID: 4800000, guid: 7740a837caf04bc47bc5cf42908220b6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
